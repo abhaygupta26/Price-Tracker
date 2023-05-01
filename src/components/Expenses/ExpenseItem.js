@@ -3,10 +3,6 @@ import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
-  const expenseDate = new Date(2023, 3, 22).toLocaleDateString();
-  const expenseTitle = "Car Assurance";
-  const expenseAmount = 345.34;
-
   return (
     <Card className='expense-item'>
       <div className='expense-item__description'>
