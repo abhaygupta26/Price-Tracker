@@ -19,6 +19,7 @@ const ExpenseForm = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
+
     const expenseData = {
       title: enteredTitle,
       amount: enteredAmount,
@@ -57,7 +58,7 @@ const ExpenseForm = (props) => {
           <input
             type='date'
             min='2019-01-01'
-            step='2022-12-31'
+            step='2023-02-31'
             onChange={dateChangeHandler}
             value={enteredDate}
           />
